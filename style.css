@@ -356,5 +356,40 @@ ul li a {
 .schedule-btn:hover {
     background: #ffffff;
     color: #111827;
+}
 
+
+.footer {
+    background-color: #0d1c2a;
+    padding: 25px 50px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #66717c;
+    font-size: 10px;
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: #505559;
+    text-decoration: none;
+    font-size: 10px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #ffffff;
 }
